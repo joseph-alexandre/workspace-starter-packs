@@ -5,4 +5,4 @@ winget install --id=JetBrains.IntelliJIDEA.Community;
 winget install --id=Postman.Postman;
 winget install --id=Docker.DockerDesktop;
 winget install --id=TeamViewer.TeamViewer;
-./ExecutePowerShellAsAdministrator
+./ExecuteInstallChocolateyAsAdministrator.ps1
