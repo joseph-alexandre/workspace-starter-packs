@@ -1,9 +1,9 @@
-winget uninstall --id=Opera.OperaGX;
-winget uninstall --id=Google.Chrome;
-winget uninstall --id=Git.Git;
-winget uninstall --id=Python.Python.3;
-winget uninstall --id=Microsoft.VisualStudioCode;
-winget uninstall --id=Postman.Postman;
-winget uninstall --id=SublimeHQ.SublimeMerge;
-winget uninstall --id=Docker.DockerDesktop;
-winget uninstall --id=TeamViewer.TeamViewer;
+choco uninstall opera-gx;
+choco uninstall googlechrome;
+choco uninstall git.install;
+choco uninstall python3; 
+choco uninstall vscode
+choco uninstall postman;
+choco uninstall sublimemerge --pre;
+choco uninstall docker-desktop;
+choco uninstall teamviewer;

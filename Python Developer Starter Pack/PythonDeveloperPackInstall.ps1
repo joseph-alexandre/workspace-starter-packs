@@ -1,10 +1,11 @@
-winget install --id=Opera.OperaGX;
-winget install --id=Google.Chrome;
-winget install --id=Git.Git;
-winget install --id=Python.Python.3;
-winget install --id=Microsoft.VisualStudioCode;
-winget install --id=Postman.Postman;
-winget install --id=SublimeHQ.SublimeMerge;
-winget install --id=Docker.DockerDesktop;
-winget install --id=TeamViewer.TeamViewer;
+choco install opera-gx;
+choco install googlechrome;
+choco install git.install;
+choco install python3 --pre; 
+choco install vscode;
+choco install postman;
+choco install sublimemerge --pre;
+choco install docker-desktop;
+choco install teamviewer;
+
 ./VSCodeExtensions.ps1

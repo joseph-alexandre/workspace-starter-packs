@@ -1,8 +1,9 @@
-winget install --id=Opera.OperaGX;
-winget install --id=Google.Chrome;
-winget install --id=Git.Git;
-winget install --id=JetBrains.IntelliJIDEA.Community;
-winget install --id=Postman.Postman;
-winget install --id=Docker.DockerDesktop;
-winget install --id=TeamViewer.TeamViewer;
-./ExecuteInstallChocolateyAsAdministrator.ps1
+choco install googlechrome;
+choco install git.install;
+choco install intellijidea-community;
+choco install postman;
+choco install docker-desktop;
+choco install teamviewer;
+choco install openjdk11;
+choco install maven;
+choco install opera-gx;
