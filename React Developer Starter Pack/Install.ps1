@@ -1,0 +1,1 @@
+./InstallChocolateyAsAdministrator.ps1

@@ -1,1 +1,0 @@
-Start-Process powershell -verb runAs -ArgumentList "Set-Location '${PWD}'; ./InstallChocolateyPackages.ps1";
